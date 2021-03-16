@@ -12,7 +12,7 @@
             </div>
          </div>
          <div class="foot">
-            <div class="columns w-100 is-mobile is-flex is-justify-content-center">
+            <div class="columns pesan is-mobile is-flex is-justify-content-center">
               <div class="column w-85 control is-10">
                 <input class="input is-primary tiket" type="text" placeholder="Tulis jawabanmu disini" required>
               </div>
@@ -46,8 +46,15 @@ export default {
   
 }
 
-.w-100{
+.pesan{
+position: absolute;
 width: 100%;
+height: 50px;
+bottom: 0;
+left: 0;
+right: 0;
+display: flex;
+
 }
 
 .w-85{
